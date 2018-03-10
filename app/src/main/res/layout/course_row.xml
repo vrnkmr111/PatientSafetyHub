@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/palerainbow">
+    <TableRow>
+        <TextView android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="ID No"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textid"
+        android:textColor="#000000"
+        android:textStyle="italic"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textNa" />
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="EmailId"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textEm" /></TableRow>
+    <TableRow>
+        <TextView android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Checkup Date"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textDc" />
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Symptoms"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textSymp" />
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Doctor info"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textDoc" />
+    </TableRow>
+</TableLayout>

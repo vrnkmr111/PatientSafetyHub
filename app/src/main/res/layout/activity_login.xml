@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundreg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.varun.patientsafetyhub.LoginActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Home"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:padding="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Registerd Email Id"
+        android:id="@+id/editRemail"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:padding="@dimen/activity_vertical_margin"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:inputType="textPassword"
+        android:id="@+id/editRpass"
+        android:padding="@dimen/activity_vertical_margin"/>
+    <Button
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#f91f1515"
+        android:onClick="userlogin"
+        android:background="#a9e49d"
+        android:layout_margin="@dimen/activity_vertical_margin" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:gravity="center"/>
+
+</LinearLayout>
